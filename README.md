@@ -1,72 +1,60 @@
-# 🚀 AURA-Fasion
+# ✨ AURA Fashion — Editorial Luxury E-Commerce Experience
 
-![Language](https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Production-Active-success?style=for-the-badge)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## 📌 Overview
+**AURA Fashion** is a high-end, editorial-style luxury fashion e-commerce storefront. Designed with modern serif typography, fluid micro-interactions, split-screen lookbooks, and high-resolution collection galleries, it showcases an elevated digital shopping experience for haute couture and contemporary streetwear brands.
 
-its a fasion site 
+---
 
-## ✨ Key Features & Architecture
+## ✨ Features
 
-- **High-Performance Codebase:** Built using `TypeScript` and modern engineering principles.
-- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
-- **Modern Responsive Styling:** Custom UI design system engineered for mobile & desktop clarity.
+* 👗 **Haute Couture Lookbooks:** Editorial layout showcasing seasonal collections, runway looks, and designer curations.
+* 🛍️ **Interactive Product Showcase:** Detailed garment view with fabric specifications, sizing charts, and quick-add drawer.
+* 📱 **Fluid Mobile-First Design:** Fully responsive navigation, sticky header, and touch-optimized swipeable product cards.
+* ⚡ **Ultra-Fast Performance:** Built with Vite and Tailwind CSS for instant load times and 60 FPS transitions.
 
-## 🛠️ Tech Stack & Dependencies
+---
 
-- **Core Language:** `TypeScript`
-- **Libraries & Tools:** React 18, Vite, Tailwind CSS, TypeScript
-- **Deployment Infrastructure:** Vercel Edge / Cloud Services
-
-## 📁 Architecture & File Layout
+## 📁 Repository Structure
 
 ```text
 AURA-Fasion/
-├── .env.example
-├── .github
-├── .github/ISSUE_TEMPLATE
-├── .github/ISSUE_TEMPLATE/bug_report.md
-├── .github/ISSUE_TEMPLATE/feature_request.md
-├── .github/PULL_REQUEST_TEMPLATE.md
-├── .github/workflows
-├── .github/workflows/ci.yml
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── index.html
-├── metadata.json
-└── ... [additional codebase files]
+├── src/
+│   ├── App.tsx          # Main storefront page, hero slider & collection grid
+│   ├── components/      # Header, Footer, ProductCard, CartDrawer, Lookbook
+│   └── main.tsx         # Application root render
+├── index.html           # HTML5 shell with editorial Google Fonts
+├── metadata.json        # Project manifest
+├── package.json         # Dependencies & scripts
+├── vercel.json          # Vercel deployment routing configuration
+├── LICENSE              # MIT License
+└── README.md
 ```
 
-## 🚀 Quickstart & Installation
+---
 
-### Prerequisites
-- Node.js (v18.0.0 or higher)
-- npm or yarn package manager
+## 🚀 Quick Start
 
-### Setup Instructions
+### 1. Installation
+```bash
+git clone https://github.com/Tarunjit45/AURA-Fasion.git
+cd AURA-Fasion
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Tarunjit45/AURA-Fasion.git
-   cd AURA-Fasion
-   ```
+npm install
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### 2. Run Development Server
+```bash
+npm run dev
+```
 
-3. **Launch development server:**
-   ```bash
-   npm run dev
-   ```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 📜 Author & License
+---
 
-Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Distributed under the **MIT License**.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
